@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylo Spa -- Tienda online</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost/Stylo_spa/Sprint4/Desarrollo/css/Registro.css">
+    <script src="http://localhost/Stylo_spa/Sprint4/Desarrollo/js/Registro.js">
+
+    </script>
+</head>
+<body>
+    <header>
+        <section id="nav">
+            <div id="logo" width="20%">Stilo Spa</div>
+                <div class="navbar" width="80%">
+                    <a href="http://localhost/Stylo_spa/Sprint4/Desarrollo/html/Login.html">Iniciar sesion</a>  | 
+                    <a href="http://localhost/Stylo_spa/Sprint4/Desarrollo/html/Registro.html">Registrarse</a>
+                </div>
+        </section>
+        <section class="search">
+            <div class="box"><input class="decoration"type="search" name="buscar" size="70px"
+                 placeholder="¿Que estas buscando?"/>
+                <input class="decorationb" type="submit"name="btnbuscar" value="Buscar"/></div>
+            <div></div>
+        </section>
+        <section>
+            <div class="espacio"></div>
+            <div class="barramenu">
+                <a href="" class ="menu">Inicio</a>
+                <a href="#" class ="menu">Agendar citas</a>
+                <a href="#" class ="menu">Tienda online</a>
+                <a href="#" class ="menu">Historias de usuarios</a>
+                <a href="#" class ="menu">Sucuersales</a>
+                <a href="#" class ="menu">Nosotros</a>
+            </div>
+        </section>
+    </header>
+    <section>
+        <table id="banner" align="center">
+            <tr>
+                <td><img src="http://localhost/Stylo_spa/Sprint4/Desarrollo/media/undraw_Updated_resume_re_q1or.svg" 
+                    width="600px" height="600px"></td>
+                <td>
+                    <table class="login" align="left">
+                      
+                        <tr>
+                            <td><b>Registrarse</td>
+                        </tr>
+                                              
+                        <tr>
+                            <td class="login-tex">Nombre</td>
+                        </tr>
+                        <tr><td class="login-tex">
+                                <input id="n" class="decorationl" type="text" name="Nombre" size="30" placeholder="Ingresa tu nombre"/>
+                            </td> 
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Apellido</td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex"><input id="apellido" class="decorationl" type="text" name="Apellido" size="30" placeholder="Ingresa tu apellido"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Identificacion</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <input id="identificacion" class="decorationl" type="text" name="Identificacion"size="30" placeholder="Ingresa tu Identificacion">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Telefono</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <input id="telefono" class="decorationl" type="tel" name="Telefono" size="30" placeholder="Ingresa tu Telefono">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Contraseña</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <input id="contrasena"class="decorationl" type="password" name="Contraseña"size="30" placeholder="Ingresa la contraseña"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">confirmar Contraseña</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <input id="confirmacontrasena" class="decorationl" type="text" name="Confirmarpass" size="30" placeholder="confirma la clave"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Email</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <input id="mail" class="decorationl" type="email" name="Email" size="30" placeholder="Ingresa tu email"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Fecha de nacimiento</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <input id="fecha"class="decorationl" type="date" name="Fechanac" size="30" placeholder="Escoje tu fecha de nacimiento"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="login-tex">Sexo</td>
+                        </tr>                               
+                        <tr>
+                            <td class="login-tex">
+                                <select id="sexo"name="Helados" class="decorationl"placeholder="Escoje tu sexo"> 
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        <tr><td></td></tr>
+                        <tr><td class="login-tex"><input onclick="ValidaRegistro();" class="decorationbl" type="button" name="Registrarse" value="Registrarse"size="30"/></td></tr>
+                        <tr><td></td></tr>
+                        <tr><td class="login-tex"><a class="efectolink" href="" >ir al inicio</a> --<a href="#"  class="efectolink">Ir a compras</a></td></tr>
+                
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <footer>
+        <table class="pie">
+            <tr><br/><br/><br/>               
+                <td class="pietext">
+                    Ciclo 3 Desarrollo de software intensivo -- UNAB - Programacion WEB - Grupo -- 4 -- Sprint 3<br/>
+                </td>
+            </tr>
+        </table>
+    </footer>
+    </section>
+    </body>
+</html>
